@@ -1,0 +1,6 @@
+rootProject.name = 'taskmanager-microservices'
+
+includeBuild 'taskmanager-server'
+includeBuild 'taskmanager-config'
+includeBuild 'taskmanager-gateway'
+includeBuild 'taskmanager-entity'

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/taskmanager-server" name="taskmanager-server">
+                <projects>
+                  <project path="$PROJECT_DIR$/taskmanager-server" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/taskmanager-config" name="taskmanager-config">
+                <projects>
+                  <project path="$PROJECT_DIR$/taskmanager-config" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/taskmanager-gateway" name="taskmanager-gateway">
+                <projects>
+                  <project path="$PROJECT_DIR$/taskmanager-gateway" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/taskmanager-entity" name="taskmanager-entity">
+                <projects>
+                  <project path="$PROJECT_DIR$/taskmanager-entity" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../JavaSoft/gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/taskmanager-config" />
+            <option value="$PROJECT_DIR$/taskmanager-entity" />
+            <option value="$PROJECT_DIR$/taskmanager-gateway" />
+            <option value="$PROJECT_DIR$/taskmanager-server" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/taskmanager-config" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../JavaSoft/gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/taskmanager-config" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/taskmanager-entity" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../JavaSoft/gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/taskmanager-entity" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/taskmanager-gateway" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../JavaSoft/gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/taskmanager-gateway" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/taskmanager-server" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../JavaSoft/gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/taskmanager-server" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
