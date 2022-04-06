@@ -4,7 +4,7 @@ plugins {
     id 'java'
 }
 
-group = 'ua.org.alex.taskmanager'
+group = 'ua.com.alex.taskmanager'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '17'
 

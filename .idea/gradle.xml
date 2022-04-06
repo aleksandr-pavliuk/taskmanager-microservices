@@ -26,6 +26,21 @@
                   <project path="$PROJECT_DIR$/taskmanager-entity" />
                 </projects>
               </build>
+              <build path="$PROJECT_DIR$/taskmanager-todo" name="taskmanager-todo">
+                <projects>
+                  <project path="$PROJECT_DIR$/taskmanager-todo" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/taskmanager-utils" name="taskmanager-utils">
+                <projects>
+                  <project path="$PROJECT_DIR$/taskmanager-utils" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/taskmanager-users" name="taskmanager-users">
+                <projects>
+                  <project path="$PROJECT_DIR$/taskmanager-users" />
+                </projects>
+              </build>
             </builds>
           </compositeBuild>
         </compositeConfiguration>
@@ -39,6 +54,9 @@
             <option value="$PROJECT_DIR$/taskmanager-entity" />
             <option value="$PROJECT_DIR$/taskmanager-gateway" />
             <option value="$PROJECT_DIR$/taskmanager-server" />
+            <option value="$PROJECT_DIR$/taskmanager-todo" />
+            <option value="$PROJECT_DIR$/taskmanager-users" />
+            <option value="$PROJECT_DIR$/taskmanager-utils" />
           </set>
         </option>
       </GradleProjectSettings>
@@ -79,6 +97,36 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/taskmanager-server" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/taskmanager-todo" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../JavaSoft/gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/taskmanager-todo" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/taskmanager-users" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../JavaSoft/gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/taskmanager-users" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/taskmanager-utils" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../JavaSoft/gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/taskmanager-utils" />
           </set>
         </option>
       </GradleProjectSettings>
